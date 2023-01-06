@@ -1,0 +1,86 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> LOGIN PAGE LIBRARIAN</title>  
+<script>
+    function myFunction()
+    {
+        var un = document.forms["myForm"]["username"].value;
+        var pw = document.forms["myForm"]["password"].value;
+        
+        if(un=="admin" && pw=="admin")
+        {
+
+            window.location.assign("project2.html");
+        }
+        else{
+          alert("Invalid username and password");  
+          
+        }
+    }
+</script>
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: black;  
+  size: 70%;
+}  
+button {   
+       background-color: #e52910;   
+       width:100%;  
+        color: white; 
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer; 
+        height:50%;
+        width:200px;  
+         }   
+ form {   
+        border: 3px solid #f1f1f1;  
+        box-sizing: border-box; 
+        size: 100px;
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%%; 
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        border: 2px solid rgb(207, 213, 207);   
+      
+    }  
+ button:hover { 
+    color: rgb(11, 10, 10);
+        opacity: 0.7;   
+    }   
+ 
+       
+        
+     
+ .container {   
+        padding: 15px;   
+        background-color:rgb(190, 68, 27);
+        box-sizing: border-box;
+        size: 100%;
+    }   
+    
+</style>   
+</head>    
+<body>    
+    <center> <h1 style="color: #f1f1f1;"> <button style="color: rgb(25, 219, 11);">LIBRARY MANAGEMENT SYSTEM</h1></button></center>   
+     
+        <div class="container"> 
+            <form name="myForm" method="post"> 
+            <center><label style="color: #f1f1f1;">Username : </label></center>
+            <center><input type="text" placeholder="Enter Username" name="username" required></center>
+            <center><label style="color: #f1f1f1;">Password : </label></center>
+            <center> <input type="password" placeholder="Enter Password" name="password" required></center>
+            <center><input type = "button" name="logButton" value="Login" onclick="myFunction()"></center>   
+            <center><h2 style="color: white;">pavan</h2></center>
+            </form> 
+              
+        </div>  
+         
+       
+</body>     
+</html>  

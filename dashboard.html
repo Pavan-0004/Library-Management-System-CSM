@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <center><title>
+        WELCOME
+    </title></center>
+    <marquee direction="right" style="font-size: 300%;" >Login Successfully</marquee>
+    <center><h1 style="width: 100%; height: 2cm; color: red; background-color: black; font-size: 300%;">LIBRARY MANAGEMENT SYSTEM</h1></center>
+    <body>
+        <style>
+            .btn1 :hover{
+                opacity: 0.8;
+
+            }
+        </style>
+<script>
+function listofbooks()
+{
+    window.location.assign("listofbooks.html");
+}
+function issuebook()
+{
+    window.location.assign("issuebook.html");
+}
+function returnbook()
+{
+    window.location.assign("returnbook.html");
+}
+function studentlist()
+{
+    window.location.assign("studentlist.html");
+}
+function logout()
+{
+    window.location.assign("loginpage.html");
+}
+</script>
+
+</body> 
+<button  class="btn1"style="color: rgb(225, 221, 221);background-color: red; width: 2cm; height: 1cm;"onclick="logout()">Logout</button> 
+<h2>ADMIN DASH BOARD</h2>
+<input type = "button" name="logButton" value="LIST OF BOOKS" onclick="listofbooks()" style="height: 8cm; width: 7cm; margin: 1cm;">
+<input type = "button" name="logButton" value="ISSUE BOOK" onclick="issuebook()" style="height: 8cm; width: 7cm; margin: 1cm;">
+<input type = "button" name="logButton" value="RETURN BOOK" onclick="returnbook()" style="height: 8cm; width: 7cm; margin: 1cm;">
+<input type = "button" name="logButton" value="STUDENT LIST" onclick="studentlist()" style="height: 8cm; width: 7cm; margin: 1cm;">
+
+</html>

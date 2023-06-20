@@ -1,5 +1,2 @@
 # Library-Management-System-CSM
-This project is about Library management system we want to create a local hosting platform.
-It is used by Librarian it tracks about the details of the books present in the library and the students who took the book.
-We want to kept List_books, Issue_book, Return_book, Student_details modules.
-We use HTML,javascript.
+This project involves creating a local hosting platform for a Library Management System. The system is designed to be used by librarians to track information about books in the library and the students who have borrowed them. The system includes modules such as List Books, Issue Book, Return Book, and Student Details, which help manage various aspects of the library's operations.
